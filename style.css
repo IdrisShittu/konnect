@@ -98,6 +98,10 @@ input {
 	border: 5%;
 }
 
+.mobileInput {
+  display: inline;
+  font-size: 12px
+}
 
 
 @media (max-width: 600px) {
