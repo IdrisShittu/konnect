@@ -1,0 +1,15 @@
+body {
+	background-color: rgb(135, 206, 250) ; 
+}
+
+div {
+
+	border: 1px solid rgb(0, 0, 0);
+	max-width: 35%;
+	min-width: 35%;
+	margin: auto;
+	padding : 8%;
+	background-color: rgb(256, 256, 256) ; 
+	border-radius: 8px;
+
+}
