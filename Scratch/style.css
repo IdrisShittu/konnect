@@ -1,22 +1,123 @@
-body {
-
-}
-
-div {
-
-	border: 1px solid rgb(0, 0, 0);
-	max-width: 35%;
-	min-width: 35%;
-	margin: auto;
-	padding : 2% 8%;
-	background-color: rgb(256, 256, 256) ; 
-	border-radius: 8px;
-}
-
 html { 
   background: url(../Images/image2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+
+
+}
+
+#formTitle {
+	font-size: 40px;
+	color: #FDB900;
+}
+
+
+
+div {
+
+	border: 1px solid #ccc;
+	width:22%;
+	min-width: 30px;
+	float: right;
+	padding : 2% 8%;
+	background-color: rgb(256, 256, 256); 
+	border-radius: 8px;
+	margin: 2%;
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.textInput {
+
+
+  width: 120%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #FDB900;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FF9A00;
+}
+
+
+.pageTitle{
+	font-size: 50px;
+    font-weight:bold;
+    float:left;
+    margin-left: 5%;
+  
+
+}
+
+label {
+color: #000;
+font-weight: bold;
+display: block;
+margin-bottom: 3%;
+font-family: 'roboto', 'Vollkorn' , Sans-Serif;
+
+
+}
+
+p{
+
+font-family: 'Open-Sans', 'Vollkorn' , Sans-Serif;
+font-size: 12px;
+
+}
+
+input {
+ margin-bottom: 3%;
+}
+
+.textInput{
+	width:80%;
+	height:30%
+	border-radius : 1px;
+	border: 5%;
+}
+
+
+
+@media (max-width: 600px) {
+
+.pageTitle{
+	font-size: 50px;
+    font-weight:bold;
+    float:none;
+    text-align: center;
+}
+
+div{
+	margin: auto;
+	float: none;
+	min-width:50%;
+}
+
+.mobileInput {
+	display: inline;
+	font-size: 12px
+}
+
 }
