@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(135, 206, 250) ; 
+
 }
 
 div {
@@ -8,8 +8,15 @@ div {
 	max-width: 35%;
 	min-width: 35%;
 	margin: auto;
-	padding : 8%;
+	padding : 2% 8%;
 	background-color: rgb(256, 256, 256) ; 
 	border-radius: 8px;
+}
 
+html { 
+  background: url(../Images/image2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
