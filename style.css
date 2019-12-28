@@ -1,5 +1,5 @@
 html { 
-  background: url(../Images/image2.jpg) no-repeat center center fixed; 
+  background: url(Images/image2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,7 +22,7 @@ div {
 
 	border: 1px solid #ccc;
 	width:22%;
-	min-width: 30px
+	min-width: 30px;
 	float: right;
 	padding : 2% 8%;
 	background-color: rgb(256, 256, 256); 
@@ -34,7 +34,7 @@ div {
 .textInput {
 
 
-width: 100%;
+  width: 120%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
