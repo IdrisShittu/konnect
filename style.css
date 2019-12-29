@@ -103,6 +103,23 @@ input {
   font-size: 12px
 }
 
+.mission{
+  font-size: 30px;
+  margin: 
+  margin-top: 50% ;
+  
+  max-width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+span {
+  font-size: 50px;
+  font-weight:bold;
+
+
+}
 
 @media (max-width: 600px) {
 
@@ -111,6 +128,7 @@ input {
     font-weight:bold;
     float:none;
     text-align: center;
+    margin-left: 0%;
 }
 
 div{
@@ -123,5 +141,18 @@ div{
 	display: inline;
 	font-size: 12px
 }
+
+.mission{
+  font-size: 30px;
+  margin:auto;
+  text-align:center;
+  padding-bottom: 10%;
+  max-width: 50%;
+  text-align: center;
+  position: static;
+}
+
+}
+
 
 }
